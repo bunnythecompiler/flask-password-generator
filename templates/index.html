@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password generator</title>
+
+</head>
+<body>
+    <style>
+        .center_form {
+            text-align: center;
+        }
+        body {
+            background: #f4f4f4;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        div {
+            text-align: center;
+        }
+    </style>
+    <div>
+        <h1>Password generator</h1>
+    </div>
+    <div>
+        <h1>{{message}}</h1>
+    </div>
+    <div>
+        <form method="POST">
+            Password Length: <input type="text" name="length">
+            <input type="submit" name="generate">
+        </form>
+    </div>
+    <div>
+        <h1>{{password}}</h1>
+    </div>
+</body>
+</html>
